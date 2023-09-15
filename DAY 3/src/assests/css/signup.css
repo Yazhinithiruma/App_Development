@@ -1,0 +1,161 @@
+body {
+    position: fixed;
+    background-position: right top;
+    background-color: #ffffff; 
+    background-size: 1000px 900px;
+    background-repeat: no-repeat;
+  }
+  
+  .limage {
+    padding-left: 177px;
+    padding-top: 90px;
+  }
+  
+  .lheads {
+    position: fixed;
+    text-align: justify;
+    left: 320px;
+    top: 70px;
+    color: #0c0c0c; 
+  }
+  
+  label {
+    display: inline-flex;
+    font: 4rem 'times new roman';
+  }
+  
+  .llntext {
+    position: fixed;
+    text-align: center;
+    height: 60px;
+    width: 483px;
+    left: 190px;
+    top: 320px;
+    border-radius: 30px;
+  }
+  
+  .pplntext {
+    position: fixed;
+    text-align: center;
+    height: 64px;
+    width: 483px;
+    left: 190px;
+    top: 400px;
+    border-radius: 30px;
+  }
+  
+  .ssubmit {
+    background-color: rgb(12, 6, 9);
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px;
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    left: 350px;
+    top: 490px;
+    font-size: 150%;
+  }
+  
+  .lsubmit:hover {
+    opacity: 8000%;
+    color: rgb(112, 146, 71); 
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 480px;
+    padding-left: 150px;
+  }
+  
+  .forgotbuttonlink {
+    color: #5199ca; 
+    cursor: pointer;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    left: 1225px;
+    top: 680px;
+  }
+  
+  .forgotbuttonlink:hover {
+    color: rgb(255, 255, 255); 
+  }
+  
+  .sbuttonlink {
+    color: #5199ca; 
+    padding: auto;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px;
+    position: fixed;
+    width: 250px;
+    height: 60px;
+    left: 1200px;
+    top: 731px;
+  }
+  .error {
+    color: #ff0000; 
+    font-size: 14px; 
+    margin-top: 5px;
+  }
+  
+  
+  .input-container {
+    position: relative;
+  }
+  
+  
+  .input-container .error {
+    position: absolute;
+    bottom: -440px; 
+    left: 190px;
+  }
+  
+  .sbuttonlink:hover {
+    color: rgb(255, 255, 255); 
+  }
+  
+  .containerlog {
+    position: fixed;
+    top: -inherit;
+    bottom: 50px;
+    left: 100px;
+    width: 680px;
+    height: 500px;
+    background-color: rgba(216, 216, 221, 0.9);
+    overflow: hidden;
+    border-radius: 8%;
+  }
+  .logimage{
+    position: fixed;
+    top: 100px;
+    left: 280px;
+    width: 680px;
+    height: 750px;
+    background-color: transparent;
+    overflow: hidden;
+  }
+  .ftext {
+    position: fixed;
+    text-align: center;
+    height: 60px;
+    width: 483px;
+    left: 190px;
+    top: 160px;
+    border-radius: 30px;
+  }
+  .ltext {
+    position: fixed;
+    text-align: center;
+    height: 60px;
+    width: 483px;
+    left: 190px;
+    top: 240px;
+    border-radius: 30px;
+  }
+  
