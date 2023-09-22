@@ -1,0 +1,122 @@
+.loginbody {
+  position: fixed;
+  background-position: right top;
+  background-color: #ffffff; /* Background color */
+  background-size: 1000px 900px;
+  background-repeat: no-repeat;
+}
+.loginheads {
+  position: fixed;
+  text-align: justify;
+  left: 890px;
+  top: 80px;
+  color: #014352; /* Text color */
+}
+label {
+  display: inline-flex;
+  font: 4rem 'times new roman';
+}
+
+.loginemail {
+  position: fixed;
+  text-align: center;
+  height: 60px;
+  width: 483px;
+  left: 750px;
+  top: 190px;
+  border-radius: 30px;
+}
+
+.loginpass {
+  position: fixed;
+  text-align: center;
+  height: 64px;
+  width: 483px;
+  left: 750px;
+  top: 290px;
+  border-radius: 30px;
+}
+
+.loginsubmit {
+  background-color: #11a69c;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 30px;
+  position: fixed;
+  width: 150px;
+  height: 60px;
+  margin-left: 260px;
+  font-size: 150%;
+  margin-top: 400px;
+}
+.loginsubmit:hover {
+  opacity: 8000%;
+  color: rgb(0, 0, 0); /* Hover color */
+}
+
+span.psw {
+  float: right;
+  padding-top: 480px;
+  padding-left: 150px;
+}
+.forgetpass {
+  color: #146c80; /* Link color */
+  text-decoration: underline; /* Add an underline to indicate it's a link */
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 10px;
+  position: fixed;
+  width: 150px;
+  height: 60px;
+  left: 920px;
+  top: 500px;
+  font-size:larger;
+}
+
+.forgetpass:hover {
+  color: rgb(0, 0, 0); /* Hover color */
+  text-decoration: underline; /* Add an underline on hover */
+}
+
+.error {
+  color: #ff0000; 
+  font-size: 1px; 
+  top: 220px;
+}
+.logininput-container {
+  position: fixed;
+}
+
+.logininput-container .error {
+  position: absolute;
+  bottom: -330px; 
+  left: 190px;
+}
+.logincontainerlog {
+  position: fixed;
+  margin-top: -563px;
+  margin-left: 685px;
+  width: 620px;
+  height: 600px;
+  background-color: rgba(216, 216, 221, 0.9);
+  overflow: hidden;
+  border-radius: 8%;
+}
+.loginimage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.login-para{
+  margin-top: 500px;
+  margin-left: 280px;
+}
+.login-para p{
+  text-decoration: none;
+ 
+}
+
+
+

@@ -1,0 +1,88 @@
+  .profile-image img {
+    max-width: 2000px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: block;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+  }
+  
+  /* Profile Information Pop-up */
+  .popup {
+    display: block;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    max-width: 80%;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Profile Information Section */
+  .profile-info {
+    margin-top: 20px;
+  }
+  
+  .profile-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+  }
+  
+  /* My Crafts Section */
+  .my-crafts {
+    margin-left: 900px;
+  }
+  
+  .my-crafts h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .my-crafts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .my-crafts li {
+    margin: 5px 0;
+  }
+  
+  .my-crafts a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .my-crafts a:hover {
+    text-decoration: underline;
+  }
+  .word{
+    margin-left: 900px;
+    font-size:medium;
+    margin-top: -570px;
+  }
+  

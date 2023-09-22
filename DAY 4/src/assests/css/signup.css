@@ -1,0 +1,131 @@
+.signupbody {
+    position: fixed;
+    background-position: right top;
+    background-color: #ffffff; 
+    background-size: 1000px 900px;
+    background-repeat: no-repeat;
+  }
+  .signupheads {
+    position: fixed;
+    text-align: justify;
+    left: 870px;
+    top: 60px;
+    color: #014352; 
+  }
+  label {
+    display: inline-flex;
+    font: 4rem 'times new roman';
+  }
+  .signupcontainerlog {
+    position: fixed;
+    top: 32px;
+    bottom: 50px;
+    margin-left: 650px;
+    
+    width: 700px;
+    height: 550px;
+    background-color: rgb(243, 243, 243);
+    overflow: hidden;
+    
+  }
+  .signupemail{
+    position: fixed;
+    text-align: center;
+    height: 50px;
+    width: 483px;
+    left: 760px;
+    top: 280px;
+    border-radius: 30px;
+  }
+  .signuppass{
+    position: fixed;
+    text-align: center;
+    height: 50px;
+    width: 483px;
+    left: 760px;
+    top: 350px;
+    border-radius: 30px;
+  }
+  .signupsubmitbutton {
+    background-color: #11a69c;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    left: 920px;
+    top: 495px;
+    font-size: 150%;
+  }
+  .signupconpass {
+    position: fixed;
+    text-align: center;
+    height: 50px;
+    width: 483px;
+    left: 760px;
+    top: 420px;
+    border-radius: 30px;
+  }
+  .signupsubmitbutton:hover{
+    color: #000000;
+  }
+  span.psw {
+    float: right;
+    padding-top: 480px;
+    padding-left: 150px;
+  }
+  .error{
+    color: #ff0000; 
+    font-size: 14px; 
+    margin-top: 125px;
+  }
+  .signupinput-container {
+    position: relative;
+  }
+  .signupinput-container .error {
+    position: absolute;
+    bottom: -440px; 
+    left: 190px;
+  }
+  .signupfname {
+    position: fixed;
+    text-align: center;
+    height: 50px;
+    width: 483px;
+    left: 760px;
+    top: 140px;
+    border-radius: 30px;
+  }
+  .signuplname {
+    position: fixed;
+    text-align: center;
+    height: 50px;
+    width: 483px;
+    left: 760px;
+    top: 210px;
+    border-radius: 30px;
+  }
+ /* .signuplogin-link {
+  color: #014352;
+  cursor: pointer;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline; 
+  margin-top: 520px; 
+  display: inline-block;
+
+} 
+.signuplogin-link:hover {
+  color: #11a69c;
+  text-decoration: underline; 
+}  */
+
+.signupimage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+  
