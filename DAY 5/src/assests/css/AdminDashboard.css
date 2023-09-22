@@ -1,0 +1,117 @@
+
+.title-bar {
+    background-color: #11a69c;
+    color: #050505;
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Fixed position for the title bar */
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2; /* Bring the title bar to the front */
+    font-size: small;
+}
+.title-bar h1 {
+    margin: 0;
+}
+.sidebar {
+    background-color: #11a69c;
+    color: #fff;
+    width: 125px;
+    flex-shrink: 0; /* Prevent sidebar from shrinking */
+    position: fixed; /* Fixed position for the sidebar */
+    top: 0;
+    bottom: 0;
+    z-index: 1; /* Keep the sidebar behind the title bar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+}
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center the content horizontally */
+}
+.sidebar nav li {
+    display: block;
+    margin-bottom: 10px;
+}
+.sidebar nav a {
+    text-decoration: none;
+    color: #050505;
+}
+.sidebar nav a:hover {
+    text-decoration: underline;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 220px; /* Adjust this value to leave space for the sidebar */
+}
+.header {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    position: relative; /* Remove fixed position for the header */
+    z-index: 2; /* Bring the header to the front */
+}
+.footer {
+    background-color: #11a69c;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    position: fixed; /* Fixed position for the footer */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2; /* Bring the footer to the front */
+}
+/* Style for the "Login" button */
+.dashlogin-button {
+    background-color: #11a69c; /* Background color */
+    color: #000000;
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 16px; /* Font size */
+    position: fixed; /* Fixed position for the button */
+    top: 20px; /* Adjust top position as needed */
+    right: 20px; /* Adjust right position as needed */
+    z-index: 3; 
+    width: 80px;
+    height: 30px;
+    text-decoration: underline;
+}
+  
+  /* Style for the "Login" button on hover */
+  .dashlogin-button:hover {
+    color: #ffffff; /* Darker background color on hover */
+  }
+.logoimage {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+        position: fixed; /* Fixed position for the logo */
+        top: 10px; /* Adjust top position as needed */
+        left: 9px; /* Adjust left position as needed */
+        z-index: 3; /* Ensure the logo is on top of other content */
+}
+.logoimage img {
+        width: 120px; /* Adjust the width as needed */
+        height: 50px; /* Adjust the height as needed */
+        border-radius: 50%; /* Make it circular */
+        object-fit: cover; /* Ensure the image covers the circle */
+}
+.dashboard-data-item{
+    margin-left: 600px;
+}  
+.dashboard-data-item1{
+    margin-left: 600px;
+} 
+
+  
