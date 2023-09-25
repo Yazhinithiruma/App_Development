@@ -1,0 +1,80 @@
+.contact-us {
+    text-align: center;
+  }
+  
+  .contact-form {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px 0px ;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #11a69c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0e8d83;
+    color: black;
+  }
+  
+  .contact-info {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  .contactuh {
+    margin-bottom: 100px; /* Add a margin at the bottom to create space for the footer */
+  }
+  .animation-container-contactus {
+    position: fixed;
+    margin-left: 10px;
+    max-width: 350px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 120px;
+  }
+  

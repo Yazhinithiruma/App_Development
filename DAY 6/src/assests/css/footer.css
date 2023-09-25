@@ -1,0 +1,35 @@
+.footer {
+    background-color: #11a69c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* z-index: 3; */
+  }
+  
+  .footer .footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .footer .footer-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 10px; /* Adjust the spacing between links */
+  }
+  
+  .footer .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
