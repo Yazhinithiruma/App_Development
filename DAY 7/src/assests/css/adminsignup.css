@@ -1,0 +1,89 @@
+.admin-signup-container {
+  max-width: 400px;
+  margin-left: 740px; /* Adjust margin-right to move the container to the left */
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+  /* Styles for the heading */
+  .admin-signup-container h2 {
+    margin-top: 0;
+    font-size: 28px;
+  }
+  
+  /* Styles for form groups */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  /* Styles for form group labels */
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  
+  /* Styles for text input fields */
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group textarea {
+    width: 90%; /* Modified width to 100% for full-width inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Adjusted font size for better readability */
+  }
+  
+  /* Styles for error messages */
+  .form-group p.error {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  /* Styles for the submit button */
+  button[type="submit"] {
+    background-color: #11a69c;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #11a69c;
+  }
+  
+  /* Styles for the "Already have an account?" paragraph */
+  .account-link {
+    margin-top: px; /* Adjusted margin-top */
+  }
+  
+  .account-link p {
+    margin: 0;
+  }
+  
+  .account-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .account-link a:hover {
+    text-decoration: underline;
+  }
+  .animation-container-adminsignup {
+    position: fixed;
+    right: 800px;
+    max-width: 900px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+  }
+
+  

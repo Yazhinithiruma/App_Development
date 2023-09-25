@@ -1,0 +1,73 @@
+.adminnavbar {
+    background-color: #11a69c; 
+    color: #fff;
+    height: 637px; /* Make the navbar extend from top to bottom of the viewport */
+    display: flex;
+    padding:10px 0;
+    width:150px /* Add top padding for spacing */
+  }
+  .navbar {
+    background-color: #11a69c;
+    color: #fff;
+    padding: 10px 0;
+    width: 170px; /* Adjust the width as needed */
+    height: 637px;
+  }
+  
+  .adminnav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Display links vertically */
+    align-items: center; /* Center-align links horizontally */
+    padding: 0;
+    margin-top: 90px;
+  }
+  
+  .adminnav-links li {
+    margin: 10px 0; /* Adjust spacing between links */
+  }
+  
+  .adminnav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .adminnav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .adminnav-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .adminnav-links li {
+    margin: 10px 0;
+  }
+  
+  .adminnav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .adminnav-links a:hover {
+    text-decoration: underline;
+  }
+  .animation-container-adminnavbar {
+    position: fixed;
+    margin-left: 250px;
+    max-width: 600px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 35px;
+  }
+  .animation-container-admindashnew{
+    position: fixed;
+    margin-left: 900px;
+    max-width: 600px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 35px;
+  }

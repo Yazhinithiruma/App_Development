@@ -1,0 +1,54 @@
+.animation-container-userlogin {
+    position: fixed;
+    right: 70px;
+    max-width: 600px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+  }
+  
+  .animation-container-adminlogin {
+    position: fixed;
+    right: 700px;
+    max-width: 800px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+  }
+  
+  .bothload-page-options-admin {
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    font-size: 24px;
+
+  }
+  
+  .bothload-page-options-user {
+    position: absolute;
+    top: 120px;
+    left: 950px;
+    font-size: 24px;
+  }
+  .bothload-page-options-admin1 {
+    color: #11a69c; 
+    cursor: pointer;
+    font-size:29px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    left: 340px;
+    top: 100px;
+  }
+  .bothload-page-options-admin2 {
+    color: #11a69c; 
+    cursor: pointer;
+    font-size: 29px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    width: 150px;
+    height: 350px;
+    left: 950px;
+    top: 100px;
+  }
