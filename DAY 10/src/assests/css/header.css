@@ -1,0 +1,78 @@
+.header {
+    background-color: #11a69c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: -21px;
+    left: -10px;
+    right: 0;
+    /* z-index: 3; */
+  }
+  
+  .logoimage1 {
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  .logoimage1 img {
+    width: 90px; /* Adjust the logo width */
+    height: auto;
+    margin-top: 7px;
+    border-radius: 450%;
+  }
+  .shop-name{
+    margin-left: 300px;
+  }
+  .shop-name h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .header-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-links li {
+    margin-right: 20px; /* Adjust the spacing between links */
+  }
+  
+  .header-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .header-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .user-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-section p {
+    font-size: 20px;
+    margin-right: 10px; /* Adjust spacing */
+    color: black;
+  }
+  
+  .user-section button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .user-section button:hover {
+    text-decoration: underline;
+  }
+  

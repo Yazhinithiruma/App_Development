@@ -1,0 +1,79 @@
+.productCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.productCard {
+    width: 15rem;
+    margin: 1rem;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.productCard:hover {
+    transform: translateY(-1rem);
+}
+
+.productImage {
+    height: 20rem;
+    overflow: hidden; /* Ensure the image doesn't overflow the card */
+}
+
+.productImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left top;
+    transition: transform 0.3s; /* Add transition for image zoom on hover */
+}
+
+.productCard:hover .productImage img {
+    transform: scale(1.1); /* Zoom in the image on hover */
+}
+
+.textPart {
+    padding: 0.75rem;
+    position: relative; /* Make it relative for absolute positioning */
+    z-index: 1; /* Ensure text is above the image */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background */
+    transition: transform 0.3s; /* Add transition for text hover effect */
+    transform: translateY(0); /* Initial position */
+}
+
+.productCard:hover .textPart {
+    transform: translateY(-10%); 
+}
+
+.productBrand {
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.productTitle {
+    margin-top: 0.25rem;
+}
+
+.priceInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.discountedPrice {
+    font-weight: bold;
+    color: #333; /* Adjust the color as needed */
+}
+
+.originalPrice {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.discountPercentage {
+    color: green;
+    font-weight: bold;
+}

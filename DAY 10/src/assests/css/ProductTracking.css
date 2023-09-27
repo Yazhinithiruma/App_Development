@@ -1,0 +1,74 @@
+.product-tracking-container {
+    max-width: 800px;
+    margin: 0px auto 20px; /* Adjusted margin for the Product Tracking container */
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.product-tracking-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.order {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #f8f8f8; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.order-info {
+    flex: 1;
+}
+
+.order-status {
+    flex: 0 0 150px; 
+}
+
+
+.order-status-badge {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.pending {
+    background-color: red; 
+    color: #333;
+}
+
+.shipped {
+    background-color: yellow; 
+    color: #000000;
+}
+
+.delivered {
+    background-color: #33cc33; 
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .order {
+        flex-direction: column;
+    }
+
+    .order-info {
+        margin-bottom: 10px;
+    }
+}

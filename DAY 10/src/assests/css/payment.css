@@ -1,0 +1,63 @@
+/* CSS for the Payment Page */
+.payment-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.payment-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.payment-form {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.payment-group {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.payment-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+/* Reduce text size for all input fields */
+.payment-input,
+.payment-select {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+.payment-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #11a69c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.payment-button:hover {
+  background-color: #189c93;
+  color: black;
+}
+.payerror-message{
+    color: red;
+}
+.custom-popup{
+  margin-bottom: 40px;
+}
