@@ -1,0 +1,74 @@
+.header1 {
+    background-color: #11a69c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index:2
+  }
+  
+  .logoimage2 {
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  .logoimage2 img {
+    width: 90px; /* Adjust the logo width */
+    height: auto;
+    margin-top: 10px; /* Adjust the margin as needed */
+    border-radius: 45%;
+  }
+  
+  .shop-name1 h1 {
+    font-size: 24px;
+    margin: 0;
+    margin-left: 200px;
+  }
+  
+  .header-links1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-links1 li {
+    margin-right: 20px; /* Adjust the spacing between links */
+  }
+  
+  .header-links1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .header-links1 a:hover {
+    text-decoration: underline;
+  }
+  
+  .user-section1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-section1 p {
+    font-size: 20px;
+    margin-right: 10px; /* Adjust spacing */
+    color: black;
+  }
+  
+  .user-section1 button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .user-section1 button:hover {
+    text-decoration: underline;
+  }
+  
+  

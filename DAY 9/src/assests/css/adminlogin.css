@@ -1,0 +1,107 @@
+.adminloginbody {
+    position: fixed;
+    background-position: right top;
+    background-color: #ffffff; /* Background color */
+    background-size: 1000px 900px;
+    background-repeat: no-repeat;
+  }
+  .adminloginheads {
+    position: fixed;
+    text-align: justify;
+    left: 760px;
+    top: 60px;
+    color: #014352; /* Text color */
+    font-size: large;
+  }
+  label {
+    display: inline-flex;
+    font: 4rem 'times new roman';
+  }
+  
+  .adminloginemail {
+    position: fixed;
+    text-align: center;
+    height: 60px;
+    width: 483px;
+    left: 730px;
+    top: 170px;
+    border-radius: 30px;
+  }
+  .adminloginusername{
+    position: fixed;
+    text-align: center;
+    height: 64px;
+    width: 483px;
+    left: 730px;
+    top: 250px;
+    border-radius: 30px;
+  }
+
+  .adminloginpass {
+    position: fixed;
+    text-align: center;
+    height: 64px;
+    width: 483px;
+    left: 730px;
+    top: 330px;
+    border-radius: 30px;
+  }
+  
+  .adminloginsubmit {
+    background-color: #11a69c;
+    color: black;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px;
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    left: 900px;
+    font-size: 150%;
+    top: 420px;
+  }
+
+  
+  span.psw {
+    float: right;
+    padding-top: 480px;
+    padding-left: 150px;
+  }
+  .error {
+    color: #ff0000; 
+    font-size: 1px; 
+    top: 220px;
+  }
+   .adminlogininput-container {
+    position: fixed;
+  }
+
+  .adminlogininput-container .error {
+    position: absolute;
+    bottom: -330px; 
+    left: 190px;
+  }
+  .animation-container-adminlogin {
+    position: fixed;
+    right: 800px;
+    max-width: 800px;
+    height: auto;
+    overflow: hidden;
+    bottom:70px
+    /* margin-top: 10px; */
+  }
+  .adminlogin-link-haveanaccount{
+    margin-left: 830px;
+    margin-top: 500px;
+  }
+
+  /* .adminlogincontainerlog {
+    position: fixed;
+    margin-top: -563px;
+    margin-left: 685px;
+    width: 620px;
+    height: 600px;
+    background-color: rgba(216, 216, 221, 0.9);
+    overflow: hidden;
+    border-radius: 8%;
+  } */
