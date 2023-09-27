@@ -1,0 +1,8 @@
+.animation-container-admindashboard {
+    position: fixed;
+    margin-left: 600px;
+    max-width: 550px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 40px;
+  }

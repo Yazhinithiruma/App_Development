@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #11a69c;
+    color: #fff;
+    padding: 10px 0;
+    width: 150px; /* Adjust the width as needed */
+    height: 637px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Display links vertically */
+    align-items: center; /* Center-align links horizontally */
+    padding: 0;
+    margin-top: 90px;
+  }
+  
+  .nav-links li {
+    margin: 10px 0; /* Adjust spacing between links */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
